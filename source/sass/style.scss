@@ -1,3 +1,11 @@
-h1 {
-  color: red;
-}
+// normalize
+@import './general/normalize.scss';
+
+// fonts
+@import './general/fonts.scss';
+
+// general styles
+@import './general/common.scss';
+
+// variables
+@import './general/variables.scss';
