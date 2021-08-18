@@ -4,8 +4,17 @@
 // fonts
 @import './general/fonts.scss';
 
+// variables
+@import './general/variables.scss';
+
+//mixins
+@import './general/mixin.scss';
+
 // general styles
 @import './general/common.scss';
 
-// variables
-@import './general/variables.scss';
+// header
+@import './blocks/header.scss';
+
+// nav
+@import './blocks//nav.scss';

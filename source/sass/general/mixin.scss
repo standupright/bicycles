@@ -1,0 +1,3 @@
+@mixin container {
+  padding: 0 calc((100% - $desktop-width - 120px) / 2)
+}
