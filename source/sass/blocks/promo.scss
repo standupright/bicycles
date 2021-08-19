@@ -1,0 +1,16 @@
+.promo {
+  @include container;
+  padding-top: 62px;
+  height: 820px; // временная затычка
+
+  background-color: $gray-darken;
+  background-image: url('/img/main-bike.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("/img/main-bike@2x.jpg");
+  }
+}
