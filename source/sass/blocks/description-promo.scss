@@ -45,6 +45,25 @@
   .description-promo h2 {
     font-size: 30px;
     line-height: 42px;
+    margin-bottom: 20px;
+  }
+
+  .description-promo p {
+    font-size: 18px;
+    line-height: 32px;
+    padding: 0 calc(50% - 200px);
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .description-promo img {
+    margin-left: 16px;
+    margin-bottom: 75px;
+  }
+
+  .description-promo h2 {
+    font-size: 30px;
+    line-height: 42px;
   }
 
   .description-promo p {
