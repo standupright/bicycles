@@ -46,7 +46,8 @@
           <h2>Мы продаем велосипеды</h2>
           <p>Наш магазин отбирает только самые лучшие велосипеды для продажи</p>
         </div>
-        <form class="promo__form-field form-field" action="#" method="post" enctype="multipart/form-data" autocomplete="off">
+        <form class="promo__form-field form-field" action="#" method="post" enctype="multipart/form-data"
+          autocomplete="off">
           <p>Заполните поля ниже и мы подберем велосипед Вашей мечты</p>
           <input id="name" type="text" required placeholder="Введите Ваше Имя">
           <input id="tel" type="tel" required placeholder="Введите Ваш номер телефона">
@@ -69,7 +70,30 @@
     </section>
   </main>
   <footer class="footer">
-    <h2>Как нас найти?</h2>
+    <div class="footer__wrapper">
+      <h2>Как нас найти?</h2>
+      <p>Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</p>
+      <picture>
+        <source srcset="img/map.webp 1x, img/map.webp 2x" type="image/webp">
+        <img src="img/map.jpg" alt="Местоположение на карте" srcset="img/map@2x.jpg 2x" width="957" height="530">
+      </picture>
+      <div class="contacts">
+        <a href="email:puteshestviemechta@gmail.ru">
+          <svg width="26" height="20" xmlns="http://www.w3.org/2000/svg" aria-labelledby="email-footer">
+            <title id="email-footer">Наша почта</title>
+            <use xlink:href="img/sprite_auto.svg#icon-message"></use>
+          </svg>
+          <span>puteshestviemechta@gmail.ru</span>
+        </a>
+        <a href="tel:+749978468446">
+          <svg width="21" height="22" xmlns="http://www.w3.org/2000/svg" aria-labelledby="phone-footer">
+            <title id="phone-footer">Наш телефон</title>
+            <use xlink:href="img/sprite_auto.svg#icon-phone"></use>
+          </svg>
+          <span>+7 (499) -784-684-46</span>
+        </a>
+      </div>
+    </div>
   </footer>
   <script src="js/script.js"></script>
 </body>

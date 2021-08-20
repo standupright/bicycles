@@ -1,7 +1,6 @@
 .promo {
   @include container;
   padding-top: 62px;
-  height: 820px; // временная затычка
   background-color: $gray-darken;
   background-image: url('/img/main-bike.jpg');
   background-repeat: no-repeat;
@@ -18,7 +17,7 @@
   display: flex;
   padding: 0 calc((50% - 184px)/2);
   padding-top: 261px;
-  padding-bottom: 256px;
+  padding-bottom: 235px;
   justify-content: space-between;
 }
 
