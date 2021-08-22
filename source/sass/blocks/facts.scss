@@ -2,7 +2,7 @@
   @include container;
   text-align: center;
   padding-top: 150px;
-  padding-bottom: 130px;
+  padding-bottom: 153px;
 }
 
 .facts__wrapper {
@@ -80,6 +80,10 @@
 }
 
 @media (max-width: $mobile-breakpoint) {
+  .facts {
+    padding-bottom: 82px;
+  }
+
   .facts__wrapper {
     padding: 0 6px;
   }

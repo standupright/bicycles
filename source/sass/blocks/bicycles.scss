@@ -1,8 +1,8 @@
 .bicycles {
   @include container;
   text-align: center;
-  padding-top: 170px;
-  padding-bottom: 130px;
+  padding-top: 149px;
+  padding-bottom: 166px;
   background-color: $gray;
 }
 
@@ -186,7 +186,7 @@
 
 @media (max-width: $mobile-breakpoint) {
   .bicycles {
-    padding-top: 63px;
+    padding-top: 50px;
     padding-bottom: 52px;
   }
 
