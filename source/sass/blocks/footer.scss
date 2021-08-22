@@ -37,8 +37,6 @@
 .footer img {
   object-fit: cover;
   margin-bottom: 39px;
-  height: 530px;
-
 }
 
 @media (max-width: $tablet-breakpoint) {
@@ -66,7 +64,6 @@
 
   .footer img {
     margin-bottom: 20px;
-    height: 545px;
   }
 }
 
@@ -87,9 +84,5 @@
 
   .footer p {
     padding: 0 18px;
-  }
-
-  .footer img {
-    height: 250px;
   }
 }
