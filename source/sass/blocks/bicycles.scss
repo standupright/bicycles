@@ -225,33 +225,34 @@
     margin-top: 20px;
     z-index: 2;
   }
+  .bicycles__image-inner {
+    &--big-circle {
 
-  .bicycles__image-inner--big-circle {
-
-    &::after {
-      top: 63vw;
-      left: -7vw;
-      width: 39.7vw;
-      height: 39.7vw;
+      &::after {
+        top: 63vw;
+        left: -7vw;
+        width: 39.7vw;
+        height: 39.7vw;
+      }
     }
-  }
 
-  .bicycles__image-inner--rectungle {
+    &--rectungle {
 
-    &::before,
-    &::after {
-      display: none;
+      &::before,
+      &::after {
+        display: none;
+      }
     }
-  }
 
-  .bicycles__image-inner--mini-circle {
+    &--mini-circle {
 
-    &::after {
-      top: -7vw;
-      right: -5vw;
-      width: 21.25vw;
-      height: 21.25vw;
-      border: 13px solid $turquoise;
+      &::after {
+        top: -7vw;
+        right: -5vw;
+        width: 21.25vw;
+        height: 21.25vw;
+        border: 13px solid $turquoise;
+      }
     }
   }
 }
