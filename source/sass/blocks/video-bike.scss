@@ -2,7 +2,7 @@
   background-color: $gray-darkest;
   text-align: center;
   padding-top: 120px;
-  padding-bottom: 33.2vw;
+  padding-bottom: calc(50% - 231px);
   position: relative;
 }
 
@@ -67,7 +67,7 @@
 @media (max-width: $tablet-breakpoint) {
   .video-bike {
     padding-top: 70px;
-    padding-bottom: 237px;
+    padding-bottom: 31vw;
   }
 
   .video-bike h2 {
@@ -83,21 +83,45 @@
 
   .video-bike__video-inner {
     top: 216px;
-    padding: 0 133px;
+    padding: 0 125px;
   }
 
   .video-bike button {
-    top: 12vw;
-    left: 27vw;
+    top: calc(50% - 45px);
+    left: calc(50% - 45px);
     width: 90px;
     height: 90px;
     background-size:  18px 25px;
   }
 }
 
-@media (max-width: $tablet-breakpoint)  {
+@media (max-width: $mobile-breakpoint)  {
+  .video-bike {
+    padding-top: 84px;
+    padding-bottom: 163px;
+  }
+
+  .video-bike h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .video-bike p {
+    font-size: 16px;
+    line-height: 28px;
+    width: 288px;
+  }
+
   .video-bike__video-inner {
     top: 270px;
     padding: 0 16px;
+  }
+
+  .video-bike button {
+    top: calc(50% - 30px);
+    left: calc(50% - 25px);
+    width: 65px;
+    height: 65px;
+    background-size:  13px 18px;
   }
 }
