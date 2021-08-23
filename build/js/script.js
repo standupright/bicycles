@@ -1,7 +1,5 @@
-'use strict';
-
-var nav = document.querySelector('.nav');
-var navToggle = document.querySelector('.nav__toggle');
+const nav = document.querySelector('.nav');
+const navToggle = document.querySelector('.nav__toggle');
 
 // nav open and closed
 nav.classList.remove('nav--nojs');
@@ -16,3 +14,17 @@ navToggle.addEventListener('click', function () {
     nav.classList.remove('nav--opened');
   }
 });
+
+// Плавный скролл
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};
