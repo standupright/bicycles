@@ -155,33 +155,35 @@
     margin-top: 17px;
   }
 
-  .bicycles__image-inner--big-circle {
+  .bicycles__image-inner {
+    &--big-circle {
 
-    &::after {
-      top: 26vw;
-      left: -6vw;
-      width: 16.54vw;
-      height: 16.54vw;
-      border: 18px solid $turquoise;
+      &::after {
+        top: 26vw;
+        left: -6vw;
+        width: 16.54vw;
+        height: 16.54vw;
+        border: 18px solid $turquoise;
+      }
     }
-  }
 
-  .bicycles__image-inner--rectungle {
+    &--rectungle {
 
-    &::before,
-    &::after {
-      display: none;
+      &::before,
+      &::after {
+        display: none;
+      }
     }
-  }
 
-  .bicycles__image-inner--mini-circle {
+    &--mini-circle {
 
-    &::after {
-      top: -3vw;
-      right: -3vw;
-      width: 7.66vw;
-      height: 7.66vw;
-      border: 13px solid $turquoise;
+      &::after {
+        top: -3vw;
+        right: -3vw;
+        width: 7.66vw;
+        height: 7.66vw;
+        border: 13px solid $turquoise;
+      }
     }
   }
 }
