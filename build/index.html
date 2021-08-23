@@ -7,13 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Веломагазин Moon</title>
   <link rel="stylesheet" href="css/style.min.css">
-  <link rel="preload" href="fonts/opensans-light.woff2" as="font">
-  <link rel="preload" href="fonts/opensans-regular.woff2" as="font">
-  <link rel="preload" href="fonts/opensans-semibold.woff2" as="font">
-  <link rel="preload" href="fonts/opensans-bold.woff2" as="font">
+  <link rel="preload" href="fonts/opensans-light.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensans-regular.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensans-semibold.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="fonts/opensans-bold.woff2" as="font" type="font/woff2" crossorigin="">
 </head>
 
-<body>
+<body id="body">
   <header class="header">
     <nav class="header__nav nav nav--nojs">
       <button class="nav__toggle" type="button" aria-label="Открыть меню"></button>
@@ -46,7 +46,9 @@
     <section class="promo">
       <div class="promo__wrapper">
         <div class="promo__description-promo description-promo">
-          <img src="img/icon-main-logo.svg" width="67" height="20" alt="Логотип магазина Moon">
+          <a>
+            <img src="img/icon-main-logo.svg" width="67" height="20" alt="Логотип магазина Moon">
+          </a>
           <h2>Мы продаем велосипеды</h2>
           <p>Наш магазин отбирает только самые лучшие велосипеды для продажи</p>
         </div>
@@ -91,7 +93,7 @@
               <picture>
                 <source srcset="img/bike-andreas-haimerl.webp 1x, img/bike-andreas-haimerl.webp 2x" type="image/webp">
                 <!-- 1x: 342px; 2x: 682px -->
-                <img src="img/bike-andreas-haimerl.jpg" alt="Внешний вид велосипеда" srcset="img/bike-andreas-haimerl@2x.jpg 2x" width="342" height="510">
+                <img src="img/bike-andreas-haimerl.jpg" loading="lazy" alt="Внешний вид велосипеда" srcset="img/bike-andreas-haimerl@2x.jpg 2x" width="342" height="510">
               </picture>
             </div>
 
@@ -102,7 +104,7 @@
               <picture>
                 <source srcset="img/bike-eberhard-grossgasteiger.webp 1x, img/bike-eberhard-grossgasteiger.webp 2x" type="image/webp">
                   <!-- 1x: 342px; 2x: 682px -->
-                <img src="img/bike-eberhard-grossgasteiger.jpg" alt="Внешний вид велосипеда" srcset="img/bike-eberhard-grossgasteiger@2x.jpg 2x" width="342" height="566">
+                <img src="img/bike-eberhard-grossgasteiger.jpg" loading="lazy" alt="Внешний вид велосипеда" srcset="img/bike-eberhard-grossgasteiger@2x.jpg 2x" width="342" height="566">
               </picture>
             </div>
 
@@ -113,7 +115,7 @@
               <picture>
                 <source srcset="img/bike-roger-goh.webp 1x, img/bike-roger-goh.webp 2x" type="image/webp">
                 <!-- 1x: 342px; 2x: 682px -->
-                <img src="img/bike-roger-goh.jpg" alt="Внешний вид велосипеда" srcset="img/bike-roger-goh@2x.jpg 2x" width="342" height="512">
+                <img src="img/bike-roger-goh.jpg" loading="lazy" alt="Внешний вид велосипеда" srcset="img/bike-roger-goh@2x.jpg 2x" width="342" height="512">
               </picture>
             </div>
             <h3>Детский велосипед</h3>
@@ -129,7 +131,7 @@
           <picture>
             <source srcset="img/bike-josh-nuttall.webp 1x, img/bike-josh-nuttall.webp 2x" type="image/webp">
             <!-- 1x: 929px; 2x: 1858px -->
-            <img src="img/bike-josh-nuttall.jpg" alt="Внешний вид велосипеда" srcset="img/bike-josh-nuttall@2x.jpg 2x" width="929" height="522">
+            <img src="img/bike-josh-nuttall.jpg" loading="lazy" alt="Внешний вид велосипеда" srcset="img/bike-josh-nuttall@2x.jpg 2x" width="929" height="522">
           </picture>
           <button type="button" aria-label="Включить плеер"></button>
         </div>
@@ -143,7 +145,7 @@
       <picture>
         <source srcset="img/map.webp 1x, img/map.webp 2x" type="image/webp">
         <!-- 1x: 957px; 2x: 1914px -->
-        <img src="img/map.jpg" alt="Местоположение на карте" srcset="img/map@2x.jpg 2x" width="957" height="530">
+        <img src="img/map.jpg" loading="lazy" alt="Местоположение на карте" srcset="img/map@2x.jpg 2x" width="957" height="530">
       </picture>
       <div class="contacts">
         <a href="email:puteshestviemechta@gmail.ru">
@@ -154,7 +156,7 @@
           <span>puteshestviemechta@gmail.ru</span>
         </a>
         <a href="tel:+749978468446">
-          <svg width="21" height="22" xmlns="http://www.w3.org/2000/svg" aria-labelledby="phone-footer">
+          <svg fill="none" width="21" height="22" xmlns="http://www.w3.org/2000/svg" aria-labelledby="phone-footer">
             <title id="phone-footer">Наш телефон</title>
             <use xlink:href="img/sprite_auto.svg#icon-phone"></use>
           </svg>

@@ -4,7 +4,7 @@
   flex-wrap: wrap;
 }
 
-.description-promo img {
+.description-promo a {
   margin-bottom: 30px;
   width: 67px;
   height: 20px;
@@ -36,7 +36,9 @@
 }
 
 @media (max-width: $tablet-breakpoint) {
-  .description-promo img {
+
+  .description-promo a {
+    display: block;
     margin-top: 25px;
     margin-left: 21px;
     margin-bottom: 88px;
@@ -57,7 +59,7 @@
 }
 
 @media (max-width: $mobile-breakpoint) {
-  .description-promo img {
+  .description-promo a {
     margin-left: 16px;
     margin-bottom: 75px;
   }
