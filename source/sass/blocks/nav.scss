@@ -31,7 +31,7 @@
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -9px;
     left: center;
@@ -43,12 +43,12 @@
 }
 
 .nav__link {
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 32px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   color: $white;
   opacity: 0.7;
 
@@ -153,5 +153,4 @@
       margin-bottom: 0;
     }
   }
-
 }

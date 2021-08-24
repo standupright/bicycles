@@ -12,31 +12,30 @@
 
 .description-promo h2 {
   @include reset;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   margin-bottom: 24px;
   color: $white;
   font-style: normal;
   font-weight: 700;
   font-size: 46px;
   line-height: 64px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
 }
 
 .description-promo p {
   @include reset;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 32px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   mix-blend-mode: normal;
   color: $white;
   opacity: 0.8;
 }
 
 @media (max-width: $tablet-breakpoint) {
-
   .description-promo a {
     display: block;
     margin-top: 25px;

@@ -13,12 +13,12 @@
   @include reset;
   margin-bottom: 30px;
   color: $black-additional;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
 }
 
 .footer p {
@@ -26,7 +26,7 @@
   padding: 0 calc(50% - 240px);
   margin-bottom: 42px;
   color: $black;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;

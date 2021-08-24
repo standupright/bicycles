@@ -13,12 +13,12 @@
 .bicycles h2 {
   @include reset;
   margin-bottom: 50px;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   color: $black-additional;
 }
 
@@ -46,7 +46,7 @@
 .bicycles h3 {
   @include reset;
   margin-top: 25px;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -61,7 +61,7 @@
     z-index: 2;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       z-index: -1;
       top: 11.5vw;
@@ -77,7 +77,7 @@
     position: relative;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 3.25vw;
       height: 3.25vw;
@@ -87,7 +87,7 @@
     }
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       width: 3.25vw;
       height: 3.25vw;
@@ -101,7 +101,7 @@
     position: relative;
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: -3vw;
       right: -3vw;
@@ -128,7 +128,7 @@
     margin-bottom: 28px;
     font-size: 24px;
     line-height: 41px;
-    letter-spacing: -0.005em;
+    letter-spacing: -0.01em;
   }
 
   .bicycles ul {
@@ -165,7 +165,6 @@
 
   .bicycles__image-inner {
     &--big-circle {
-
       &::after {
         top: 26vw;
         left: -6vw;
@@ -176,7 +175,6 @@
     }
 
     &--rectungle {
-
       &::before,
       &::after {
         display: none;
@@ -184,7 +182,6 @@
     }
 
     &--mini-circle {
-
       &::after {
         top: -3vw;
         right: -3vw;
@@ -238,7 +235,6 @@
 
   .bicycles__image-inner {
     &--big-circle {
-
       &::after {
         top: 63vw;
         left: -7vw;
@@ -248,7 +244,6 @@
     }
 
     &--rectungle {
-
       &::before,
       &::after {
         display: none;
@@ -256,7 +251,6 @@
     }
 
     &--mini-circle {
-
       &::after {
         top: -7vw;
         right: -5vw;

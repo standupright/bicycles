@@ -3,7 +3,7 @@
   padding-top: 62px;
   padding-bottom: 235px;
   background-color: $gray-darken;
-  background-image: url('/img/main-bike.jpg');
+  background-image: url("/img/main-bike.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -16,7 +16,7 @@
 
 .promo__wrapper {
   display: flex;
-  padding: 0 calc((50% - 184px)/2);
+  padding: 0 calc((50% - 184px) / 2);
   padding-top: 261px;
   justify-content: space-between;
 }
@@ -46,7 +46,7 @@
     padding: 0;
     flex-basis: 339px;
     background-color: $gray-darken;
-    background-image: url('/img/main-bike.jpg');
+    background-image: url("/img/main-bike.jpg");
     background-repeat: no-repeat;
     background-position: center -40px;
     background-size: cover;

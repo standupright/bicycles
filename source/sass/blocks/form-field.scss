@@ -7,20 +7,20 @@
 .form-field p {
   @include reset;
   margin-bottom: 20px;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
   line-height: 28px;
   text-align: center;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   color: $white;
   mix-blend-mode: normal;
 }
 
 .form-field input {
   margin-bottom: 20px;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   background-color: $white;
   border: 1px solid $gray-light;
   box-sizing: border-box;
@@ -57,7 +57,7 @@
   border: none;
   outline: none;
   background-color: $turquoise;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;

@@ -1,5 +1,3 @@
-'use strict'
-
 const nav = document.querySelector('.nav');
 const navToggle = document.querySelector('.nav__toggle');
 const body = document.querySelector('#body');
@@ -12,7 +10,7 @@ const telForm = document.querySelector('#tel');
 nav.classList.remove('nav--nojs');
 nav.classList.add('nav--closed');
 
-navToggle.addEventListener('click', function () {
+navToggle.addEventListener('click', () => {
   if (nav.classList.contains('nav--closed')) {
     nav.classList.remove('nav--closed');
     nav.classList.add('nav--opened');
@@ -26,9 +24,9 @@ navToggle.addEventListener('click', function () {
 
 // Плавный скролл
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
-for (let smoothLink of smoothLinks) {
-  smoothLink.addEventListener('click', function (e) {
-    e.preventDefault();
+for (const smoothLink of smoothLinks) {
+  smoothLink.addEventListener('click', (evt) => {
+    evt.preventDefault();
     const id = smoothLink.getAttribute('href');
 
     const placeScroll = document.querySelector(id);
@@ -36,14 +34,14 @@ for (let smoothLink of smoothLinks) {
     if (placeScroll) {
       placeScroll.scrollIntoView({
         behavior: 'smooth',
-        block: 'start'
+        block: 'start',
       });
       nav.classList.remove('nav--opened');
       nav.classList.add('nav--closed');
       body.classList.remove('overflow-hidden');
     }
   });
-};
+}
 
 // Валидация формы
 nameForm.addEventListener('invalid', () => {
@@ -63,12 +61,12 @@ telForm.addEventListener('invalid', () => {
 });
 
 let isStorageSupport = true;
-let storageName = "";
-let storageTel = "";
+let storageName = '';
+let storageTel = '';
 
 try {
-  storageName = localStorage.getItem("name");
-  storageTel = localStorage.getItem("tel");
+  storageName = localStorage.getItem('name');
+  storageTel = localStorage.getItem('tel');
 } catch (err) {
   isStorageSupport = false;
 }
@@ -82,12 +80,12 @@ if (storageTel) {
 }
 
 // Событие отправки формы
-form.addEventListener("submit", (evt) => {
+form.addEventListener('submit', (evt) => {
   evt.preventDefault();
 
   if (isStorageSupport) {
-    localStorage.setItem("name", nameForm.value);
-    localStorage.setItem("tel", telForm.value);
+    localStorage.setItem('name', nameForm.value);
+    localStorage.setItem('tel', telForm.value);
   }
 
   nameForm.value = '';

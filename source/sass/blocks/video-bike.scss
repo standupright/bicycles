@@ -10,12 +10,12 @@
   @include reset;
   margin-bottom: 20px;
   color: $white;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
 }
 
 .video-bike p {
@@ -23,12 +23,12 @@
   color: $white;
   margin: 0 auto;
   width: 340px;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   opacity: 0.7;
 }
 
@@ -59,7 +59,7 @@
   outline: none;
   border-radius: 50%;
   background-color: $turquoise;
-  background-image: url('/img/icon-play.svg');
+  background-image: url("/img/icon-play.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 13px 18px;
