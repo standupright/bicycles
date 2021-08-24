@@ -27,22 +27,22 @@ navToggle.addEventListener('click', function () {
 // Плавный скролл
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
 for (let smoothLink of smoothLinks) {
-    smoothLink.addEventListener('click', function (e) {
-        e.preventDefault();
-        const id = smoothLink.getAttribute('href');
+  smoothLink.addEventListener('click', function (e) {
+    e.preventDefault();
+    const id = smoothLink.getAttribute('href');
 
-        const placeScroll = document.querySelector(id);
+    const placeScroll = document.querySelector(id);
 
-        if (placeScroll) {
-          placeScroll.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-          });
-          nav.classList.remove('nav--opened');
-          nav.classList.add('nav--closed');
-          body.classList.remove('overflow-hidden');
-        }
-    });
+    if (placeScroll) {
+      placeScroll.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+      nav.classList.remove('nav--opened');
+      nav.classList.add('nav--closed');
+      body.classList.remove('overflow-hidden');
+    }
+  });
 };
 
 // Валидация формы
