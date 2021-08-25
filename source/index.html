@@ -55,7 +55,9 @@
         <form class="promo__form-field form-field" action="#" method="post" enctype="multipart/form-data"
           autocomplete="off">
           <p>Заполните поля ниже и мы подберем велосипед Вашей мечты</p>
-          <input id="name" type="text" minlength="1" required placeholder="Введите Ваше Имя">
+          <label for="name" class="visually-hidden">Имя</label>
+          <input id="name" name="name" type="text" minlength="1" required placeholder="Введите Ваше Имя">
+          <label for="tel" class="visually-hidden">Телефон</label>
           <input id="tel" type="tel" pattern="[+,0-9]{6,12}" minlength="6" maxlength="12" required placeholder="Введите Ваш номер телефона">
           <button type="submit">Подобрать велосипед мечты</button>
         </form>
