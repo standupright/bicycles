@@ -1,6 +1,6 @@
 .footer {
   @include container;
-  padding-top: 17vw;
+  padding-top: 17.3vw;
   padding-bottom: 100px;
   text-align: center;
 }
@@ -72,7 +72,7 @@
 
 @media (max-width: $mobile-breakpoint) {
   .footer {
-    padding-top: 38vw;
+    padding-top: 118px;
     padding-bottom: 50px;
   }
 
@@ -86,7 +86,7 @@
   }
 
   .footer p {
-    padding: 0 18px;
+    padding: 0 30px;
   }
 
   .footer img {
