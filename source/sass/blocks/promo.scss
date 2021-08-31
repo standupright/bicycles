@@ -3,14 +3,14 @@
   padding-top: 62px;
   padding-bottom: 235px;
   background-color: $gray-darken;
-  background-image: url("/img/main-bike.jpg");
+  background-image: url("../img/main-bike.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
   position: relative;
 
   @media (min-resolution: 2dppx) {
-    background-image: url("/img/main-bike@2x.jpg");
+    background-image: url("../img/main-bike@2x.jpg");
   }
 }
 
@@ -46,13 +46,13 @@
     padding: 0;
     flex-basis: 339px;
     background-color: $gray-darken;
-    background-image: url("/img/main-bike.jpg");
+    background-image: url("../img/main-bike.jpg");
     background-repeat: no-repeat;
     background-position: center -40px;
     background-size: cover;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("/img/main-bike@2x.jpg");
+      background-image: url("../img/main-bike@2x.jpg");
     }
   }
 

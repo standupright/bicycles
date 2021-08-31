@@ -98,7 +98,7 @@
 
     &--closed .nav__toggle {
       display: block;
-      background-image: url("/img/icon-burger.svg");
+      background-image: url("../img/icon-burger.svg");
       background-color: $turquoise;
     }
 
@@ -107,7 +107,7 @@
       margin-left: auto;
       margin-bottom: 48px;
       background-color: $white;
-      background-image: url("/img/icon-close.svg");
+      background-image: url("../img/icon-close.svg");
     }
   }
 
@@ -141,7 +141,7 @@
       height: 25px;
       background-repeat: no-repeat;
       background-position: center;
-      background-image: url("/img/icon-arrow-right.svg");
+      background-image: url("../img/icon-arrow-right.svg");
     }
   }
 
