@@ -38,7 +38,7 @@
 
 .video-bike__video-inner {
   position: absolute;
-  top: 282px;
+  bottom: -100px;
   width: 100%;
   left: 0;
   padding: 0 256px;
@@ -77,7 +77,7 @@
 @media (max-width: $tablet-breakpoint) {
   .video-bike {
     padding-top: 70px;
-    padding-bottom: 31vw;
+    padding-bottom: calc(50% - 144px);
   }
 
   .video-bike h2 {
@@ -92,7 +92,7 @@
   }
 
   .video-bike__video-inner {
-    top: 216px;
+    bottom: -86px;
     padding: 0 132px;
   }
 
@@ -123,7 +123,7 @@
   }
 
   .video-bike__video-inner {
-    top: 270px;
+    bottom: -50px;
     padding: 0 16px;
   }
 
