@@ -16,18 +16,17 @@
 
 .promo__wrapper {
   display: flex;
-  padding: 0 calc((50% - 184px) / 2);
-  padding-top: 261px;
+  padding: 0 calc((50% - 162px) / 2);
+  padding-top: 258px;
   justify-content: space-between;
 }
 
 .promo__description-promo {
   flex-basis: 393px;
-  padding-left: 20px;
 }
 
 .promo__form-field {
-  flex-basis: 327px;
+  flex-basis: 330px;
 }
 
 @media (max-width: $tablet-breakpoint) {
