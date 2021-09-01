@@ -38,10 +38,6 @@
     opacity: 0.5;
   }
 
-  &:invalid {
-    border: 1px solid $red;
-  }
-
   &:hover,
   &:focus {
     border: 1px solid $turquoise;
