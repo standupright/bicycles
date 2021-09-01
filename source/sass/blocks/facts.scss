@@ -6,12 +6,12 @@
 }
 
 .facts__wrapper {
-  padding: 0 137px;
+  padding: 0 calc(9%);
 }
 
 .facts h2 {
   @include reset;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
   font-weight: 600;
