@@ -1,15 +1,28 @@
 .contacts {
+  @include reset;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+}
+
+.contacts li {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: calc(13.5%);
-  padding-right: calc(15%);
+  justify-content: flex-start;
+  margin-bottom: 20px;
+
+  &:nth-of-type(2n-1) {
+    justify-content: flex-end;
+  }
+
+  &:nth-of-type(2n) {
+    padding-left: 5vw;
+  }
 }
 
 .contacts a {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-family: "Open Sans", "Arial", sans-serif;
   font-style: normal;
@@ -37,13 +50,31 @@
   opacity: 0.5;
 }
 
+@media (max-width: $tablet-breakpoint) {
+  .contacts li {
+    &:nth-of-type(2n) {
+      padding-left: 9vw;
+    }
+  }
+}
+
 @media (max-width: $mobile-breakpoint) {
   .contacts {
+    display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .contacts a:first-of-type {
-    margin-bottom: 22px;
+  .contacts li {
+    margin-bottom: 26px;
+
+    &:nth-of-type(2n-1) {
+      justify-content: center;
+    }
+
+    &:nth-of-type(2n) {
+      justify-content: center;
+      padding-left: 0;
+    }
   }
 }
