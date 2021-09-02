@@ -6,9 +6,8 @@
 }
 
 .facts__wrapper {
+  @include desktop-wrapper;
   padding: 0 calc(9%);
-  max-width: $desktop-width;
-  margin: 0 auto;
 }
 
 .facts h2 {

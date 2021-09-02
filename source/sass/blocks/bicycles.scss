@@ -7,9 +7,8 @@
 }
 
 .bicycles__wrapper {
+  @include desktop-wrapper;
   padding: 0 calc(12% - 12px);
-  max-width: $desktop-width;
-  margin: 0 auto;
 }
 
 .bicycles h2 {

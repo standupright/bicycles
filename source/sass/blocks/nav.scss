@@ -4,6 +4,10 @@
   padding-bottom: 10px;
 }
 
+.nav__wrapper {
+  @include desktop-wrapper;
+}
+
 .nav__toggle {
   display: none;
   border: none;
