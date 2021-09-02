@@ -5,7 +5,8 @@
 }
 
 .nav__wrapper {
-  @include desktop-wrapper;
+  max-width: 833px;
+  margin: 0 auto;
 }
 
 .nav__toggle {

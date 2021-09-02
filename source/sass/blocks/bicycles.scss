@@ -65,10 +65,10 @@
       content: "";
       position: absolute;
       z-index: -1;
-      top: 11.5vw;
-      left: -4.25vw;
-      width: 12.5vw;
-      height: 12.5vw;
+      top: 31%;
+      left: -19%;
+      width: 53%;
+      height: 35%;
       border-radius: 50%;
       border: 27px solid $turquoise;
     }
@@ -80,20 +80,20 @@
     &::before {
       content: "";
       position: absolute;
-      width: 3.25vw;
-      height: 3.25vw;
-      top: -1.6vw;
-      left: -1.4vw;
+      width: 14%;
+      height: 9%;
+      top: -4%;
+      left: -6%;
       border: 8px solid $turquoise;
     }
 
     &::after {
       content: "";
       position: absolute;
-      width: 3.25vw;
-      height: 3.25vw;
-      bottom: -1.2vw;
-      right: -1.5vw;
+      width: 14%;
+      height: 9%;
+      bottom: -4%;
+      right: -7%;
       border: 8px solid $turquoise;
     }
   }
@@ -104,10 +104,10 @@
     &::after {
       content: "";
       position: absolute;
-      top: -3vw;
-      right: -3vw;
-      width: 6.6vw;
-      height: 6.6vw;
+      top: -6%;
+      right: -13%;
+      width: 29%;
+      height: 18%;
       border-radius: 50%;
       border: 17px solid $turquoise;
     }
