@@ -6,7 +6,7 @@
   background-image: url("../img/main-bike.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
+  background-size: fill;
   position: relative;
 
   @media (min-resolution: 2dppx) {
@@ -51,7 +51,7 @@
     background-color: $gray-darken;
     background-image: url("../img/main-bike.jpg");
     background-repeat: no-repeat;
-    background-position: center -40px;
+    background-position: center -50px;
     background-size: cover;
 
     @media (min-resolution: 2dppx) {
@@ -81,6 +81,7 @@
     padding: 0;
     flex-basis: 390px;
     background-position: center 30px;
+    background-size: cover;
   }
 
   .promo__form-field {
